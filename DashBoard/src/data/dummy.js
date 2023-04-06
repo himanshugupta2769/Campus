@@ -394,7 +394,7 @@ export const LinePrimaryYAxis = {
 };
 
 export const customersGrid = [
- 
+
   { headerText: 'Name',
     width: '150',
     template: customerGridImage,
@@ -485,10 +485,7 @@ export const links = [
   {
     title: 'Pages',
     links: [
-      {
-        name: 'orders',
-        icon: <AiOutlineShoppingCart />,
-      },
+
       {
         name: 'employees',
         icon: <IoMdContacts />,
@@ -500,10 +497,6 @@ export const links = [
       {
         name: 'Library',
         icon: <BiLibrary />,
-      },
-      {
-        name: 'Sign Out',
-        icon: <FaSignOutAlt />,
       },
     ],
   },
