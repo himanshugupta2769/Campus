@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import { GridComponent, ColumnsDirective, ColumnDirective, Page, Selection, Inject, Edit, Toolbar, Sort, Filter } from '@syncfusion/ej2-react-grids';
 
@@ -112,9 +113,9 @@ const Customers = () => {
                           <label htmlFor="country" className=" block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"> Country </label>
                           <div className="mt-1 sm:mt-0 sm:col-span-2">
                             <select id="country" name="country" autoComplete="country-name" className="max-w-lg block focus:ring-indigo-500 focus:border-indigo-500 w-full p-2 border-2 shadow-sm sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
-                              <option>United States</option>
-                              <option>Canada</option>
-                              <option>Mexico</option>
+                              <option>India</option>
+                              <option>Nepal</option>
+                              <option>Bangladesh</option>
                             </select>
                           </div>
                         </div>
@@ -144,6 +145,18 @@ const Customers = () => {
                           <label htmlFor="postal-code" className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"> ZIP / Postal code </label>
                           <div className="mt-1 sm:mt-0 sm:col-span-2">
                             <input type="text" name="postal-code" id="postal-code" autoComplete="postal-code" className="max-w-lg block w-full shadow-sm p-2 border-2 focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md" />
+                          </div>
+                        </div>
+                        <div className="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                          <label htmlFor="country" className=" block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"> Branch </label>
+                          <div className="mt-1 sm:mt-0 sm:col-span-2">
+                            <select id="country" name="country" autoComplete="country-name" className="max-w-lg block focus:ring-indigo-500 focus:border-indigo-500 w-full p-2 border-2 shadow-sm sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
+                              <option>Btech</option>
+                              <option>BCA</option>
+                              <option>MBA</option>
+                              <option>BBA</option>
+                              <option>ECE</option>
+                            </select>
                           </div>
                         </div>
                       </div>
