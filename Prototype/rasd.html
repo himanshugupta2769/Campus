@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+   
+<title>Welcome to Tailwind!</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+  </head>
+  <body >
+    <button
+      data-modal-target="authentication-modal"
+      data-modal-toggle="authentication-modal"
+      class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      type="button"
+    >
+      Add User
+    </button>
+
+    
+    <!-- Main modal -->
+   
+    <div
+      id="authentication-modal"
+      tabindex="-1"
+      aria-hidden="true"
+      class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] md:h-full"
+    >
+      <div class="relative w-full h-full max-w-md md:h-auto">
+        {/*
+        <!-- Modal content -->
+        */}
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+          <button
+            type="button"
+            class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
+            data-modal-hide="authentication-modal"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+          <div class="fixed z-10 inset-0 overflow-y-auto">
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg overflow-hidden w-full max-w-md mx-auto">
+      <div class="bg-indigo-500 px-6 py-4">
+        <h2 class="text-white font-bold text-xl">Register Student</h2>
+      </div>
+      <form class="p-6" method="POST">
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">
+            Name
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="last_name" class="block text-gray-700 font-bold mb-2">
+            Last Name
+          </label>
+          <input
+            type="text"
+            id="last_name"
+            name="last_name"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="Enter your last name"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="age" class="block text-gray-700 font-bold mb-2">
+            Age
+          </label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="Enter your age"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="gender" class="block text-gray-700 font-bold mb-2">
+            Gender
+          </label>
+          <div class="mt-2">
+            <label class="inline-flex items-center">
+              <input type="radio" class="form-radio" name="gender" value="male" />
+              <span class="ml-2">Male</span>
+            </label>
+            <label class="inline-flex items-center ml-6">
+              <input type="radio" class="form-radio" name="gender" value="female" />
+              <span class="ml-2">Female</span>
+            </label>
+            <label class="inline-flex items-center ml-6">
+              <input type="radio" class="form-radio" name="gender" value="other" />
+              <span class="ml-2">Other</span>
+            </label>
+          </div>
+        </div>
+        <div class="mb-4">
+          <label for="dob" class="block text-gray-700 font-bold mb-2">
+            Date of Birth
+          </label>
+          <input
+            type="date"
+            id="dob"
+            name="dob"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="Enter your date of birth"
+            required
+          />
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email
+</label>
+<input
+         type="email"
+         id="email"
+         name="email"
+         class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+         placeholder="Enter your email address"
+         required
+       />
+</div>
+<div class="mb-4">
+<label for="phone_number" class="block text-gray-700 font-bold mb-2">
+Phone Number
+</label>
+<input
+         type="tel"
+         id="phone_number"
+         name="phone_number"
+         class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+         placeholder="Enter your phone number"
+         required
+       />
+</div>
+<div class="mb-4">
+<label for="role" class="block text-gray-700 font-bold mb-2">
+Role
+</label>
+<div class="relative">
+<select
+           id="role"
+           name="role"
+           class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+           required
+         >
+<option value="" disabled selected>Select your Branch</option>
+<option value="accounts">Btech</option>
+<option value="academics">MBA</option>
+<option value="staff">BCA</option>
+<option value="staff">B Pharma</option>
+<option value="staff">BBA</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+<svg
+             class="fill-current h-4 w-4"
+             xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 20 20"
+           >
+<path
+               d="M10 12a2 2 0 100-4 2 2 0 000 4z"
+             />
+<path
+               fill-rule="evenodd"
+               d="M3 4a1 1 0 011-1h4a1 1 0 010 2H4v12h12v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V4z"
+               clip-rule="evenodd"
+             />
+</svg>
+</div>
+</div>
+</div>
+<div class="mb-4">
+<label for="phone_number" class="block text-gray-700 font-bold mb-2">
+Id*
+</label>
+<input
+         type="tel"
+         id="phone_number"
+         name="phone_number"
+         class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+         placeholder="Enter student Unique id"
+         required
+       />
+</div>
+<div class="flex items-center justify-end">
+<button
+         type="submit"
+         class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+       >
+Submit
+</button>
+</div>
+</form>
+</div>
+
+  </div>
+</div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+  </body>
+</html>
