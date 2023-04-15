@@ -41,7 +41,7 @@ const Nav = () => {
 
   const Menus = [
     { title: "Dashboard", url: "/Nav/AdminDashboard", src: Dashboard },
-    { title: "Student", url: "/Nav/Student", src: Avatar },
+    // { title: "Student", url: "/Nav/Student", src: Avatar },
     { title: "User ", url: "/Nav/User", src: User },
     { title: "Library", url: "/Nav/Library", src: Book },
     // { title: "Profile", url: "/Nav/Profile", src: Man },
@@ -53,7 +53,7 @@ const Nav = () => {
     <>
       <div className="">
         <div className=" shadow-md w-full  top-0 left-0 ">
-          <div className="md:flex items-center justify-between bg-blue-500 py-3 md:px-10 px-7">
+          <div className="md:flex items-center justify-between bg-blue-500  md:px-10 px-7">
             <div>
               {/* <span className=" ">Campus Crate</span>   */}
               <span className=" flextext-3xl text-indigo-600   ">
@@ -61,7 +61,7 @@ const Nav = () => {
               </span>
             </div>
 
-            <h1 className="text-white text-2xl ml-[12rem] text-center">
+            <h1 className="text-white text-lg flex justify-center text-center">
               Admin
             </h1>
 
@@ -86,7 +86,7 @@ const Nav = () => {
         <div className="flex   ">
           <div
             className={` ${
-              open ? "w-60 " : "w-20 "
+              open ? "w-50 " : "w-20 "
             } bg-blue-500 h-screen p-5  pt-8 relative duration-300`}
           >
             <img

@@ -51,7 +51,7 @@ const NavLirary = () => {
     <>
       <div className="">
         <div className=" shadow-md w-full  top-0 left-0 ">
-          <div className="md:flex items-center justify-between bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 py-3 md:px-10 px-7">
+          <div className="md:flex items-center justify-between bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900  md:px-10 px-7">
             <div>
               {/* <span className=" ">Campus Crate</span>   */}
               <span className=" flextext-3xl text-indigo-600   ">
@@ -83,7 +83,7 @@ const NavLirary = () => {
         <div className="flex  ">
           <div
             className={` ${
-              open ? "w-60 " : "w-20 "
+              open ? "w-50 " : "w-20 "
             }bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 h-screen p-5  pt-8 relative duration-300`}
           >
             <img

@@ -22,14 +22,17 @@ const [data, setData] = useState([]);
     return (
       <>
         <div class="flex-1 mt-14 ">
-          <h1 class="text-3xl font-bold text-center mt-4 text-purple-800  ">
+        <h1 class="text-3xl font-bold text-center mt-4 text-purple-800  ">
             Fees Structure
           </h1>
 
-          <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
-            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+          <div class="relative overflow-x-auto shadow-2xl  sm:rounded-lg mt-10">
+            <table class="w-full text-sm text-left border-1 text-gray-500 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
+                <th scope="col" class="px-6 py-3">
+                    Branch
+                  </th>
                   <th scope="col" class="px-6 py-3">
                     Fees-April
                   </th>
@@ -106,13 +109,13 @@ const [data, setData] = useState([]);
             </table>
           </div>
 
-          <h1 class="text-3xl font-bold text-center mt-4 text-purple-800">
+          <h1 class="text-3xl font-bold shadow-2xl text-center mt-4 text-purple-800">
             {" "}
             Hostel Fees{" "}
           </h1>
 
-          <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
-            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+          <div class="relative overflow-x-auto shadow-2xl sm:rounded-lg mt-10">
+            <table class="w-full text-sm text-left text-gray-500 border-1 dark:text-gray-400">
               <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 warm-gray-400 dark:text-gray-400">
                 <tr>
                   <th scope="col" class="px-6 py-3">
