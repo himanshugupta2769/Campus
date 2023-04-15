@@ -155,65 +155,81 @@
   
   <div class="p-4 sm:ml-64 mt-10">
     
-<!-- Student Profile -->
-<div class="student-profile py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="card shadow-sm">
-            <div class="card-header bg-transparent text-center">
-              <img class="profile_img" src="https://placeimg.com/640/480/arch/any" alt="">
-              <h3>Rajneesh Rana</h3>
-            </div>
-            <div class="card-body">
-              <p class="mb-0"><strong class="pr-1">Student ID:</strong>2822908</p>
-              <p class="mb-0"><strong class="pr-1">Class:</strong>4</p>
-              <p class="mb-0"><strong class="pr-1">Section:</strong>C</p>
-            </div>
-          </div>
+<!-- Library -->
+<div class="container mx-auto py-8">
+    <h1 class="text-2xl font-bold mb-4">Library Management System Dashboard</h1>
+    
+    <div class="flex gap-x-16 flex-wrap -mx-4 mb-8">
+      <div class="sm:w-1/2 md:w-1/4 px-4">
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <h2 class="text-lg font-bold mb-2">Total Books</h2>
+          <p class="text-gray-700 text-2xl font-bold mb-4">500</p>
         </div>
-        <div class="col-lg-8">
-          <div class="card shadow-sm">
-            <div class="card-header bg-transparent border-0">
-              <h3 class="mb-0"><i class="far fa-clone pr-1"></i>General Information</h3>
-            </div>
-            <div class="card-body pt-0">
-              <table class="table table-bordered">
-                <tr>
-                  <th width="30%">Roll</th>
-                  <td width="2%">:</td>
-                  <td>2822908</td>
-                </tr>
-                <tr>
-                  <th width="30%">Academic Year	</th>
-                  <td width="2%">:</td>
-                  <td>2025</td>
-                </tr>
-                <tr>
-                  <th width="30%">Gender</th>
-                  <td width="2%">:</td>
-                  <td>Male</td>
-                </tr>
-                <tr>
-                  <th width="30%">Religion</th>
-                  <td width="2%">:</td>
-                  <td>Group</td>
-                </tr>
-                <tr>
-                  <th width="30%">blood</th>
-                  <td width="2%">:</td>
-                  <td>B+</td>
-                </tr>
-              </table>
-            </div>
-          </div>
+      </div>
+      <div class="sm:w-1/2 md:w-1/4 px-4">
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <h2 class="text-lg font-bold mb-2">Available Books</h2>
+          <p class="text-green-700 text-2xl font-bold mb-4">400</p>
+        </div>
+      </div>
+      <div class="sm:w-1/2 md:w-1/4 px-4">
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <h2 class="text-lg font-bold mb-2">Issued Books</h2>
+          <p class="text-red-700 text-2xl font-bold mb-4">80</p>
+        </div>
+      </div>
+      <div class=" sm:w-1/2 md:w-1/4 px-4">
+        <div class="bg-white shadow-md p-4 rounded-md">
+          <h2 class="text-lg font-bold mb-2">Books Due</h2>
+          <p class="text-yellow-700 text-2xl font-bold mb-4">20</p>
         </div>
       </div>
     </div>
-  </div>
+    
+    <div class="flex justify-end mb-4">
+      <button class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">Issue Book</button>
+    </div>
+    
+    <h2 class="text-xl font-bold mb-4">Recent Book Issues</h2>
+    
+    <table class="table-auto w-full">
+      <thead>
+        <tr>
+          <th class="px-4 py-2">Sr no.</th>
+          <th class="px-4 py-2">Book Title</th>
+          <th class="px-4 py-2">Issued To</th>
+          <th class="px-4 py-2">Issue Date</th>
+          <th class="px-4 py-2">Due Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2">Book Title 1</td>
+          <td class="border px-4 py-2">John Doe</td>
+          <td class="border px-4 py-2">2023-04-01</td>
+          <td class="border px-4 py-2">2023-04-15</td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">2</td>
+          <td class="border px-4 py-2">Book Title 2</td>
+          <td class="border px-4 py-2">Jane Smith</td>
+          <td class="border px-4 py-2">2023-03-27</td>
+          <td class="border px-4 py-2">2023-04-10</td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">3</td>
+          <td class="border px-4 py-2">Book Title 3</td>
+          <td class="border px-4 py-2">Robert Johnson</td>
+          <td class="border px-4 py-2">2023-03-15</td>
+          <td class="border px-4 py-2">2023-03-29</td>
+        </tr>
+    </tbody>
+    </table>
+      
+  
   
 
-  </div>
   
 <!-- Body Content -->
 
