@@ -55,6 +55,14 @@ axios.defaults.withCredentials = true;
                   icon: "success",
                 });
               }
+              if (res.data.user.role == "student") {
+                window.location = "/NavAccount/StudentAccount";
+                swal({
+                  title: "Login SuccessFully Library!",
+                  text: "Thank you!",
+                  icon: "success",
+                });
+              }
             }
           })
           .catch((err) => {
