@@ -13,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  lib,
   figma,
   docker,
   meta,
@@ -34,10 +35,10 @@ export const navLinks = [
     id: "work",
     title: "Services",
   },
-  {
-    id: "Works",
-    title: "Team",
-  },
+  // {
+  //   id: "Works",
+  //   title: "Team",
+  // },
 
   {
     id: "contact",
@@ -77,7 +78,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
- 
+
   {
     name: "React JS",
     icon: reactjs,
@@ -110,7 +111,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
- 
+
 ];
 
 const experiences = [
@@ -119,7 +120,7 @@ const experiences = [
     company_name: "Campus Crate",
     icon: starbucks,
     iconBg: "#383E56",
-    
+
     points: [
       "A centralize administration manager. ",
       "Paperless office. ",
@@ -133,12 +134,12 @@ const experiences = [
     company_name: "Campus create",
     icon: tesla,
     iconBg: "#E6DEDD",
-  
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Admin have super powers to access the whole data and manage various functions of the organization",
+      "Managing Master file for all student hostel or aceedmics",
+      "Directly consider any type of grievances",
+      "Able to control function all the branches like; admission, academics, accounts, faculty management, hostel and transport allotment, library , etc..",
     ],
   },
   {
@@ -146,12 +147,12 @@ const experiences = [
     company_name: "Campus Crate",
     icon: shopify,
     iconBg: "#383E56",
-    
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "A student management system gives you a flexible option to configure and personalise your managing experience.",
+      "Time Table managment Sytem With Live Attendence Tracking .",
+      "Student Data Maintenance.",
+      "CAMPUS CRATE provides you with complete data insights. You can look at your dashboard and configure your reports on student grades, outcomes, performance, schedules, fees, and events..",
     ],
   },
   {
@@ -159,25 +160,26 @@ const experiences = [
     company_name: "Campus Crate",
     icon: meta,
     iconBg: "#E6DEDD",
-    
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Evaluating information to prepare a realistic and balanced budget for the college and forecast annual budgets.",
+      "Maintain accurate financial data, including accurate monthly financial statements.",
+      "To manage and further develop all aspects of the college’s day-to-day financial operations.",
+      "Documenting financial transactions.",
+      "Creating and maintaining an appropriate internal control manual that is up to date and in line with best practice.",
     ],
   },
   {
     title: "Library",
     company_name: "Campus Crate",
-    icon: meta,
+    icon: lib,
     iconBg: "#E6DEDD",
-    
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proper maintenance of books records.",
+      "Sending notifications about the deadline of issued book submission.",
+      "Helps in collecting fine from the students.",
+      "Providing digital library.",
     ],
   },
   {
@@ -185,12 +187,13 @@ const experiences = [
     company_name: "Campus Crate",
     icon: meta,
     iconBg: "#E6DEDD",
-    
+
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Improved communication between teachers, students, and parents/guardians..",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality productsReduced paperwork and administrative tasks..",
+      "Easier tracking of student progress and performance.",
+      "Greater transparency and accountability..",
+      "Participating in code reviews and providing constructive feedback to other developersAbility to quickly generate reports on student data.",
     ],
   },
 ];
@@ -240,7 +243,7 @@ const projects = [
         name: "node",
         color: "pink-text-gradient",
       },
-      
+
     ],
     image: carrent,
     source_code_link: "https://github.com/rajneeshrana0",
@@ -266,7 +269,7 @@ const projects = [
         name: "CSS",
         color: "orange-text-gradient",
       },
-      
+
     ],
     image: carrent,
     source_code_link: "https://github.com/",
@@ -305,7 +308,7 @@ const projects = [
         name: "Documentation",
         color: "green-text-gradient",
       },
-     
+
     ],
     image: carrent,
     source_code_link: "https://github.com/",
