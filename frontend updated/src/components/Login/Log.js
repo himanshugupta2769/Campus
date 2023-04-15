@@ -116,7 +116,7 @@ axios.defaults.withCredentials = true;
 
     return (
       <>
-        <body class="  font-sans bg-gray-800 h-[100vh] ">
+        <body class="  font-sans bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 h-[100vh] ">
           <div class="container mx-auto p-8 flex">
             <div class="max-w-md w-full mx-auto">
               <h1 class="text-4xl text-center text-white   font-bold font font-mono ">
